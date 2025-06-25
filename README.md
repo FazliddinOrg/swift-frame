@@ -1,27 +1,27 @@
-SwiftFrame README
-SwiftFrame
-SwiftFrame is a lightweight Python web framework inspired by Flask, Django, and FastAPI. It offers simple routing, middleware, and request handling designed for fast and flexible web apps and APIs.
 
-Features
-Easy routing system
+# SwiftFrame README
 
-Middleware support
+# SwiftFrame
 
-Request & response handling
+**SwiftFrame** is a lightweight Python web framework inspired by Flask, Django, and FastAPI. It offers simple routing, middleware, and request handling designed for fast and flexible web apps and APIs.
 
-Modular and extensible
+## Features
 
-Supports sync & async operations
+* Easy routing system
+* Middleware support
+* Request & response handling
+* Modular and extensible
+* Supports sync & async operations
 
-Installation
-bash
-Copy
-Edit
+## Installation
+
+```bash
 pip install swiftframe
-Quick Start
-python
-Copy
-Edit
+```
+
+## Quick Start
+
+```python
 from swiftframe import SwiftFrame
 
 app = SwiftFrame()
@@ -32,8 +32,13 @@ def home(request):
 
 if __name__ == "__main__":
     app.run()
-Contributing
+```
+
+## Contributing
+
 Contributions are welcome! Please open issues or submit pull requests.
 
-License
+## License
+
 MIT License
+
